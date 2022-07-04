@@ -6,7 +6,7 @@ export const Card = styled.div`
 	flex-direction: column;
 	align-items: center;
 	flex: none;
-	width: 200px;
+	width: 260px;
 	margin-top: 10px;
 	border-radius: 10px;
 
@@ -23,7 +23,7 @@ export const CardHeader = styled.header`
 	width: 100%;
 `;
 export const CardImage = styled.img`
-	width: 60%;
+	width: 50%;
 	margin-top: 10px;
 	border-radius: 8px;
 `;

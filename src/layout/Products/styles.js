@@ -6,19 +6,26 @@ export const Container = styled.div`
 	max-width: 1280px;
 	padding-top: 10px;
 	width: 100%;
+
+	@media (max-width: 1280px) {
+		margin: 10px 20px;
+	}
 `;
 export const Title = styled.h2`
 	border-bottom: 4px solid var(--tertiary-color);
 	width: 50px;
+
+	@media (max-width: 1280px) {
+		margin: 0 20px;
+	}
 `;
 
-export const Cards = styled.h2`
-	max-width: 1180px;
+export const Cards = styled.div`
 	margin: 0 auto;
-	width: 100%;
+	width: 90%;
 	overflow-y: hidden;
 	display: flex;
-	gap: 40px;
+	gap: 20px;
 
 	scroll-behavior: smooth;
 
