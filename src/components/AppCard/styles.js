@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 import { ShoppingCart } from '@styled-icons/material-outlined/ShoppingCart';
 
-export const Container = styled.div`
+export const Card = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 210px;
-	width: 100%;
+	flex: none;
+	width: 200px;
 	margin-top: 10px;
+	border-radius: 10px;
 
 	&:hover {
+		background-color: #e5e5e5;
+
 		button {
 			opacity: 1;
 		}
@@ -19,10 +22,10 @@ export const CardHeader = styled.header`
 	text-align: center;
 	width: 100%;
 `;
-export const CardImage = styled.div`
-	background-color: var(--quinary-color);
-	width: 100%;
-	height: 120px;
+export const CardImage = styled.img`
+	width: 60%;
+	margin-top: 10px;
+	border-radius: 8px;
 `;
 export const CarTitle = styled.h3`
 	color: var(--quinary-color);

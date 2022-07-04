@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
-	Container,
+	Card,
 	CardHeader,
 	CardImage,
 	CarTitle,
@@ -12,17 +12,17 @@ import {
 	CardIcon,
 } from './styles';
 
-export const AppCard = () => {
+export const AppCard = ({ id, name, price, oldPrice, image }) => {
 	return (
-		<Container>
+		<Card id={id}>
 			<CardHeader>
-				<CardImage />
-				<CarTitle>TÊNIS COURO PUMA R193</CarTitle>
+				<CardImage src={image} />
+				<CarTitle>{name}</CarTitle>
 			</CardHeader>
 			<CardBody>
-				<CardOldPrice>de $ 89, 00</CardOldPrice>
+				<CardOldPrice>${oldPrice}</CardOldPrice>
 				<CardPrice>
-					<span>por</span> $ 70, 00
+					<span>por</span> ${price}
 				</CardPrice>
 
 				<CardButton>
@@ -30,6 +30,6 @@ export const AppCard = () => {
 					Comprar
 				</CardButton>
 			</CardBody>
-		</Container>
+		</Card>
 	);
 };
