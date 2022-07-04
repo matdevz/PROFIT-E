@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Header } from '../Header/index';
 import { Banner } from '../Banner/index';
-import Products from '../Products/index';
+import { Products } from '../Products/index';
 import Footer from '../Footer/index';
 
 import { Container } from './styles';
@@ -12,7 +12,7 @@ export const Layout = () => {
 		<Container>
 			<Header />
 			<Banner />
-			{/* <Products /> */}
+			<Products />
 			{/* <Footer /> */}
 		</Container>
 	);

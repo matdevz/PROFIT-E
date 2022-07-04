@@ -6,6 +6,7 @@ export const GlobalStyles = createGlobalStyle`
         --secondary-color: #011627;
         --tertiary-color: #FF9F1C;
         --quaternary-color: #2EC4B6;
+        --quinary-color: #7A7A7A;
 
         --font-title: 45px;
         --font-text: 16px

@@ -1,9 +1,23 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container, Title, Cards } from './styles';
+import { AppCard } from '../../components/AppCard/index';
 
-function Products() {
-	return <div />;
-}
+export const Products = () => {
+	return (
+		<>
+			<Container>
+				<Title>Produtos</Title>
 
-export default Products;
+				<Cards>
+					<AppCard />
+					<AppCard />
+					<AppCard />
+					<AppCard />
+					<AppCard />
+					<AppCard />
+				</Cards>
+			</Container>
+		</>
+	);
+};
