@@ -8,6 +8,10 @@ export const Container = styled.header`
 	max-width: 1280px;
 	width: 100%;
 	height: 80px;
+
+	@media (max-width: 1280px) {
+		padding: 0 20px;
+	}
 `;
 export const Logo = styled.img``;
 export const Nav = styled.nav`

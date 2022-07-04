@@ -1,9 +1,7 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
-function Banner() {
-	return <div />;
-}
-
-export default Banner;
+export const Banner = () => {
+	return <Container></Container>;
+};

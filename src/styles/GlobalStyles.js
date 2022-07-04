@@ -11,9 +11,13 @@ export const GlobalStyles = createGlobalStyle`
         --font-text: 16px
     }
     body {
-        margin: 0;
-        padding: 0;
+     
         background: var(--primary-color);
         font-family:Ubuntu, Sans-Serif;
+    }
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
     }
 `;

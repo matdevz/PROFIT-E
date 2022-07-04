@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Header } from '../Header/index';
-import Banner from '../Banner/index';
+import { Banner } from '../Banner/index';
 import Products from '../Products/index';
 import Footer from '../Footer/index';
 
@@ -11,7 +11,7 @@ export const Layout = () => {
 	return (
 		<Container>
 			<Header />
-			{/* <Banner /> */}
+			<Banner />
 			{/* <Products /> */}
 			{/* <Footer /> */}
 		</Container>
