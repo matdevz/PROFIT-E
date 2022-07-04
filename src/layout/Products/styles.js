@@ -4,7 +4,7 @@ export const Container = styled.div`
 	position: relative;
 
 	max-width: 1280px;
-	padding-top: 10px;
+	padding: 40px 0 140px 0;
 	width: 100%;
 
 	@media (max-width: 1280px) {
@@ -27,6 +27,7 @@ export const Cards = styled.div`
 	display: flex;
 	gap: 20px;
 
+	padding-top: 40px;
 	scroll-behavior: smooth;
 
 	&::-webkit-scrollbar {

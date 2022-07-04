@@ -1,9 +1,16 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container, Content } from './styles';
+import { AppLocation } from '../../components/AppLocation/index';
+import { AppContact } from '../../components/AppContact/index';
 
-function Footer() {
-	return <div />;
-}
-
-export default Footer;
+export const Footer = () => {
+	return (
+		<Container>
+			<Content>
+				<AppLocation />
+				<AppContact />
+			</Content>
+		</Container>
+	);
+};

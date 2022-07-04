@@ -5,6 +5,8 @@ export const GlobalStyles = createGlobalStyle`
         --primary-color: #FFFFFF;
         --secondary-color: #011627;
         --tertiary-color: #FF9F1C;
+        --tertiary-hover-color: #Fa9a3a;
+
         --quaternary-color: #2EC4B6;
         --quinary-color: #7A7A7A;
 
