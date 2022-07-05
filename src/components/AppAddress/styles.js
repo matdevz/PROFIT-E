@@ -6,4 +6,9 @@ export const AddressState = styled.h3`
 `;
 export const AddressParagrapy = styled.p`
 	line-height: 23px;
+	font-size: 16px;
+
+	@media (max-width: 500px) {
+		font-size: 14px;
+	}
 `;

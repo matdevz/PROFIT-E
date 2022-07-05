@@ -5,7 +5,8 @@ import { Headset } from '@styled-icons/bootstrap/Headset';
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	padding-bottom: 30px;
+	gap: 15px;
 `;
 export const ContactButton = styled.button`
 	display: flex;

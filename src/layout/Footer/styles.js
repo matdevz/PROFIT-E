@@ -12,8 +12,14 @@ export const Container = styled.div`
 `;
 export const Content = styled.div`
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: space-between;
 	max-width: 1280px;
 	width: 100%;
+
+	@media (max-width: 800px) {
+		gap: 40px;
+		align-items: center;
+		flex-direction: column;
+	}
 `;
